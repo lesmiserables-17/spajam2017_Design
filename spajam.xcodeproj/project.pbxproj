@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		674FF6981EEBEE8400D5DE80 /* winimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 674FF6971EEBEE8400D5DE80 /* winimg.png */; };
 		674FF69A1EEBF0E000D5DE80 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 674FF6991EEBF0E000D5DE80 /* background.png */; };
 		6785730C1EEBE24000A67608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785730B1EEBE24000A67608 /* AppDelegate.swift */; };
 		6785730E1EEBE24000A67608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785730D1EEBE24000A67608 /* ViewController.swift */; };
 		678573111EEBE24000A67608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6785730F1EEBE24000A67608 /* Main.storyboard */; settings = {ASSET_TAGS = (UIButton, ); }; };
 		678573131EEBE24000A67608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678573121EEBE24000A67608 /* Assets.xcassets */; };
 		678573161EEBE24000A67608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678573141EEBE24000A67608 /* LaunchScreen.storyboard */; };
-		678573201EEBE41700A67608 /* modebtn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6785731F1EEBE41700A67608 /* modebtn1.png */; };
-		67D0F5361EEBE7BE00BABBD9 /* mode2btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 67D0F5351EEBE7BE00BABBD9 /* mode2btn.png */; };
+		67A913B51EEC026A002F49B2 /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A913AD1EEC026A002F49B2 /* alert.png */; };
+		67A913B61EEC026A002F49B2 /* count1.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A913AE1EEC026A002F49B2 /* count1.png */; };
+		67A913B71EEC026A002F49B2 /* count2.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A913AF1EEC026A002F49B2 /* count2.png */; };
+		67A913B81EEC026A002F49B2 /* count3.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A913B01EEC026A002F49B2 /* count3.png */; };
+		67A913B91EEC026A002F49B2 /* goTopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A913B11EEC026A002F49B2 /* goTopButton.png */; };
+		67A913BA1EEC026A002F49B2 /* mode2btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A913B21EEC026A002F49B2 /* mode2btn.png */; };
+		67A913BB1EEC026A002F49B2 /* modebtn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A913B31EEC026A002F49B2 /* modebtn1.png */; };
+		67A913BC1EEC026A002F49B2 /* winimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A913B41EEC026A002F49B2 /* winimg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		674FF6971EEBEE8400D5DE80 /* winimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = winimg.png; path = ../../winimg.png; sourceTree = "<group>"; };
 		674FF6991EEBF0E000D5DE80 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../background.png; sourceTree = "<group>"; };
 		678573081EEBE24000A67608 /* spajam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spajam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6785730B1EEBE24000A67608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,8 +32,14 @@
 		678573121EEBE24000A67608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		678573151EEBE24000A67608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		678573171EEBE24000A67608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6785731F1EEBE41700A67608 /* modebtn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = modebtn1.png; path = ../modebtn1.png; sourceTree = "<group>"; };
-		67D0F5351EEBE7BE00BABBD9 /* mode2btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mode2btn.png; path = ../mode2btn.png; sourceTree = "<group>"; };
+		67A913AD1EEC026A002F49B2 /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alert.png; path = images/alert.png; sourceTree = "<group>"; };
+		67A913AE1EEC026A002F49B2 /* count1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = count1.png; path = images/count1.png; sourceTree = "<group>"; };
+		67A913AF1EEC026A002F49B2 /* count2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = count2.png; path = images/count2.png; sourceTree = "<group>"; };
+		67A913B01EEC026A002F49B2 /* count3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = count3.png; path = images/count3.png; sourceTree = "<group>"; };
+		67A913B11EEC026A002F49B2 /* goTopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goTopButton.png; path = images/goTopButton.png; sourceTree = "<group>"; };
+		67A913B21EEC026A002F49B2 /* mode2btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mode2btn.png; path = images/mode2btn.png; sourceTree = "<group>"; };
+		67A913B31EEC026A002F49B2 /* modebtn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = modebtn1.png; path = images/modebtn1.png; sourceTree = "<group>"; };
+		67A913B41EEC026A002F49B2 /* winimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = winimg.png; path = images/winimg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +56,6 @@
 		678572FF1EEBE24000A67608 = {
 			isa = PBXGroup;
 			children = (
-				67D0F5351EEBE7BE00BABBD9 /* mode2btn.png */,
-				6785731F1EEBE41700A67608 /* modebtn1.png */,
 				6785730A1EEBE24000A67608 /* spajam */,
 				678573091EEBE24000A67608 /* Products */,
 			);
@@ -67,8 +75,15 @@
 				6785730B1EEBE24000A67608 /* AppDelegate.swift */,
 				6785730D1EEBE24000A67608 /* ViewController.swift */,
 				6785730F1EEBE24000A67608 /* Main.storyboard */,
+				67A913AD1EEC026A002F49B2 /* alert.png */,
+				67A913AE1EEC026A002F49B2 /* count1.png */,
+				67A913AF1EEC026A002F49B2 /* count2.png */,
+				67A913B01EEC026A002F49B2 /* count3.png */,
+				67A913B11EEC026A002F49B2 /* goTopButton.png */,
+				67A913B21EEC026A002F49B2 /* mode2btn.png */,
+				67A913B31EEC026A002F49B2 /* modebtn1.png */,
+				67A913B41EEC026A002F49B2 /* winimg.png */,
 				674FF6991EEBF0E000D5DE80 /* background.png */,
-				674FF6971EEBEE8400D5DE80 /* winimg.png */,
 				678573121EEBE24000A67608 /* Assets.xcassets */,
 				678573141EEBE24000A67608 /* LaunchScreen.storyboard */,
 				678573171EEBE24000A67608 /* Info.plist */,
@@ -140,12 +155,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				678573161EEBE24000A67608 /* LaunchScreen.storyboard in Resources */,
-				678573201EEBE41700A67608 /* modebtn1.png in Resources */,
 				674FF69A1EEBF0E000D5DE80 /* background.png in Resources */,
-				674FF6981EEBEE8400D5DE80 /* winimg.png in Resources */,
 				678573131EEBE24000A67608 /* Assets.xcassets in Resources */,
+				67A913BA1EEC026A002F49B2 /* mode2btn.png in Resources */,
+				67A913B91EEC026A002F49B2 /* goTopButton.png in Resources */,
 				678573111EEBE24000A67608 /* Main.storyboard in Resources */,
-				67D0F5361EEBE7BE00BABBD9 /* mode2btn.png in Resources */,
+				67A913B81EEC026A002F49B2 /* count3.png in Resources */,
+				67A913BC1EEC026A002F49B2 /* winimg.png in Resources */,
+				67A913BB1EEC026A002F49B2 /* modebtn1.png in Resources */,
+				67A913B71EEC026A002F49B2 /* count2.png in Resources */,
+				67A913B51EEC026A002F49B2 /* alert.png in Resources */,
+				67A913B61EEC026A002F49B2 /* count1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

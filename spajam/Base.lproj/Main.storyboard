@@ -28,7 +28,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCo-JE-C0S">
                                 <rect key="frame" x="16" y="95" width="345" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="modebtn1.png"/>
+                                <state key="normal" image="modebtn1.png" backgroundImage="mode2btn.png"/>
                                 <connections>
                                     <segue destination="3oR-ot-4Kq" kind="modal" id="jri-Ao-9Nb"/>
                                 </connections>
@@ -63,6 +63,52 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="116.5" y="158.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9tQ-YJ-7qz">
+            <objects>
+                <viewController id="jBG-Ru-Da9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GSH-rg-JBy"/>
+                        <viewControllerLayoutGuide type="bottom" id="zs4-MW-omq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lJk-hl-5Ha">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="68" translatesAutoresizingMaskIntoConstraints="NO" id="Rar-x3-G3a">
+                                <rect key="frame" x="51" y="83" width="375" height="68"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rar-x3-G3a" id="d3r-Rn-jKx">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="67.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ゲームモードを選択してください" textAlignment="natural" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="Ll4-S3-ba7">
+                                            <rect key="frame" x="81" y="27" width="236" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Edf-Rf-o3k">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alert.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yla-nE-8Os">
+                                <rect key="frame" x="31" y="285" width="312" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cer-54-eot" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111.5" y="929.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="seZ-9g-F0v">
@@ -102,25 +148,12 @@
                                 <rect key="frame" x="0.0" y="148" width="375" height="443"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2Q-eo-43e">
-                                <rect key="frame" x="16" y="568" width="343" height="69"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOn-PK-jvD">
+                                <rect key="frame" x="14" y="572" width="345" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="26"/>
-                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="最初に戻る"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="button.layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="button.clipsToBounds = true" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="label.layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="label.clipsToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
+                                <state key="normal" backgroundImage="goTopButton.png"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="d0C-9E-YrP"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="RMv-JA-QCx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -133,7 +166,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="alert.png" width="1116" height="696"/>
         <image name="background.png" width="750" height="1334"/>
+        <image name="goTopButton.png" width="1420" height="292"/>
         <image name="mode2btn.png" width="702" height="532"/>
         <image name="modebtn1.png" width="702" height="532"/>
         <image name="winimg.png" width="750" height="1204"/>
