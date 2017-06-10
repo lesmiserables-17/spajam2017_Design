@@ -316,7 +316,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LZc-8j-RGX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2063" y="1015"/>
+            <point key="canvasLocation" x="2048" y="1015"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tVT-23-YF7">
+            <objects>
+                <viewController id="fA0-VB-hzw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gEf-iw-7PZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="7li-2z-ePT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zpy-C3-BZ4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p9k-mv-cjk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2514" y="1015"/>
         </scene>
     </scenes>
     <resources>
