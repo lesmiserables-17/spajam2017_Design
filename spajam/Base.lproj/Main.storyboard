@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCo-JE-C0S">
-                                <rect key="frame" x="16" y="95" width="345" height="262"/>
+                                <rect key="frame" x="15" y="95" width="345" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="modebtn1.png" backgroundImage="mode2btn.png"/>
                                 <connections>
@@ -34,12 +34,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBw-fs-8Ob">
-                                <rect key="frame" x="16" y="380" width="345" height="262"/>
+                                <rect key="frame" x="15" y="380" width="345" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="mode2btn.png"/>
-                                <connections>
-                                    <segue destination="aMY-3d-xeX" kind="modal" id="rT0-0J-RgT"/>
-                                </connections>
                             </button>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="68" translatesAutoresizingMaskIntoConstraints="NO" id="iGw-sq-gBn">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
@@ -68,6 +65,57 @@
             <point key="canvasLocation" x="116.5" y="158.5"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="uhG-F4-46S">
+            <objects>
+                <viewController id="Dec-ik-pKv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kDK-fV-FaY"/>
+                        <viewControllerLayoutGuide type="bottom" id="1rA-cu-DMs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="91U-EW-GaI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" translatesAutoresizingMaskIntoConstraints="NO" id="rz7-sV-lfX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rz7-sV-lfX" id="b0q-mz-vhs">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="結果発表" textAlignment="center" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="lDS-QG-7B2">
+                                            <rect key="frame" x="109" y="30" width="156" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="SYf-Qg-vt3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loseimg.png" translatesAutoresizingMaskIntoConstraints="NO" id="u4F-Zr-11d">
+                                <rect key="frame" x="0.0" y="176" width="375" height="443"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APG-ZH-WiX">
+                                <rect key="frame" x="16" y="570" width="345" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="goTopButton.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WOU-yj-a55" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-819.5" y="1054.5"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="seZ-9g-F0v">
             <objects>
                 <viewController id="3oR-ot-4Kq" sceneMemberID="viewController">
@@ -83,11 +131,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="68" translatesAutoresizingMaskIntoConstraints="NO" id="EN1-Ck-NwL">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" translatesAutoresizingMaskIntoConstraints="NO" id="EN1-Ck-NwL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EN1-Ck-NwL" id="41I-Uk-ky7">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="67.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="結果発表" textAlignment="center" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="0UX-aL-qXY">
@@ -119,7 +167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nuq-wZ-ciS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-380" y="1054"/>
+            <point key="canvasLocation" x="-380.5" y="1053.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Rjb-hH-FWR">
@@ -246,6 +294,30 @@
             </objects>
             <point key="canvasLocation" x="1585" y="1015"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="UEU-76-4uL">
+            <objects>
+                <viewController id="Xkz-2t-C5W" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HqX-3x-rVv"/>
+                        <viewControllerLayoutGuide type="bottom" id="H1W-Us-3iU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CYG-v8-ZGf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="countGo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ziz-L8-BpA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LZc-8j-RGX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2063" y="1015"/>
+        </scene>
     </scenes>
     <resources>
         <image name="alert.png" width="1116" height="696"/>
@@ -253,7 +325,9 @@
         <image name="count1.png" width="750" height="1334"/>
         <image name="count2.png" width="750" height="1334"/>
         <image name="count3.png" width="750" height="1334"/>
+        <image name="countGo.png" width="750" height="1334"/>
         <image name="goTopButton.png" width="1420" height="292"/>
+        <image name="loseimg.png" width="750" height="1210"/>
         <image name="mode2btn.png" width="702" height="532"/>
         <image name="modebtn1.png" width="702" height="532"/>
         <image name="winimg.png" width="750" height="1204"/>
@@ -263,7 +337,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="rT0-0J-RgT"/>
-    </inferredMetricsTieBreakers>
 </document>
